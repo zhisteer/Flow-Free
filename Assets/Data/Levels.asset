@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7ec9f91191d0c43b0ecf581a1c3ed1, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  levels:
+  - pairs:
+    - a: {x: 0, y: 4}
+      b: {x: 1, y: 0}
+    - a: {x: 1, y: 1}
+      b: {x: 2, y: 4}
+    - a: {x: 2, y: 0}
+      b: {x: 2, y: 3}
+    - a: {x: 3, y: 0}
+      b: {x: 4, y: 3}
+    - a: {x: 3, y: 1}
+      b: {x: 4, y: 4}
+  - pairs:
+    - a: {x: 0, y: 1}
+      b: {x: 4, y: 0}
+    - a: {x: 1, y: 1}
+      b: {x: 2, y: 2}
+    - a: {x: 0, y: 4}
+      b: {x: 4, y: 1}
+    - a: {x: 0, y: 0}
+      b: {x: 2, y: 1}
+  - pairs:
+    - a: {x: 0, y: 1}
+      b: {x: 1, y: 4}
+    - a: {x: 0, y: 0}
+      b: {x: 2, y: 4}
+    - a: {x: 2, y: 2}
+      b: {x: 3, y: 3}
+    - a: {x: 2, y: 0}
+      b: {x: 3, y: 1}
+    - a: {x: 3, y: 0}
+      b: {x: 3, y: 4}
+  - pairs:
+    - a: {x: 0, y: 3}
+      b: {x: 3, y: 4}
+    - a: {x: 1, y: 0}
+      b: {x: 3, y: 1}
+    - a: {x: 2, y: 0}
+      b: {x: 2, y: 2}
+    - a: {x: 0, y: 0}
+      b: {x: 4, y: 4}
+  - pairs:
+    - a: {x: 2, y: 0}
+      b: {x: 3, y: 4}
+    - a: {x: 2, y: 3}
+      b: {x: 4, y: 1}
+    - a: {x: 1, y: 3}
+      b: {x: 4, y: 0}
+    - a: {x: 3, y: 3}
+      b: {x: 4, y: 4}
+  - pairs:
+    - a: {x: 0, y: 4}
+      b: {x: 4, y: 0}
+    - a: {x: 1, y: 1}
+      b: {x: 2, y: 4}
+    - a: {x: 3, y: 2}
+      b: {x: 4, y: 4}
+    - a: {x: 3, y: 4}
+      b: {x: 4, y: 1}
+  - pairs:
+    - a: {x: 0, y: 4}
+      b: {x: 3, y: 2}
+    - a: {x: 0, y: 3}
+      b: {x: 2, y: 2}
+    - a: {x: 0, y: 2}
+      b: {x: 3, y: 4}
+    - a: {x: 1, y: 1}
+      b: {x: 3, y: 1}
+  - pairs:
+    - a: {x: 0, y: 4}
+      b: {x: 1, y: 0}
+    - a: {x: 1, y: 1}
+      b: {x: 3, y: 4}
+    - a: {x: 2, y: 2}
+      b: {x: 3, y: 3}
+    - a: {x: 2, y: 1}
+      b: {x: 4, y: 4}
+    - a: {x: 2, y: 0}
+      b: {x: 4, y: 1}
