@@ -106,6 +106,7 @@ public class GameManager : MonoBehaviour
             seq.AppendCallback(PlayEndGameCelebration);
             seq.AppendInterval(0.5f);
             seq.Append(star.DOFade(1f, 1f));
+            //seq.AppendCallback(() => star.raycastTarget = true);
         }
     }
 
